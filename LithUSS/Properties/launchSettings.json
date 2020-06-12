@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LithUSS": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
