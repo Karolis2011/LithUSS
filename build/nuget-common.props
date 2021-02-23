@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <Title>$(Product)</Title>
+    <Authors>Karolis2011</Authors>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageCommonTags>LithUSS;TextSynthesis</PackageCommonTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFullPath>../../LICENSE</PackageLicenseFullPath>
+    <PackageProjectUrl>https://github.com/Karolis2011/LithUSS</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Karolis2011/LithUSS</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageOutputPath>../../nuget</PackageOutputPath>
+    <GeneratePackageOnBuild Condition=" '$(Configuration)' == 'Release' ">true</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>

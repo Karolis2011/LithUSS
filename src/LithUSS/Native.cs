@@ -16,9 +16,7 @@ namespace LithUSS
             public int signOffset;
         }
 
-        const string libPath = "LithUSS_x64";
-        //const string libPath = "LithUSS_x32";
-        //const string libPath = "FullLithUSS_x64.dll";
+        const string libPath = "LithUSS";
 
         [DllImport(libPath, CharSet = CharSet.Ansi, EntryPoint = "initLUSS")]
         public static extern ErrorEnum initLUSS(byte[] szDataDir, byte[] katVoice);

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Product>LithUSS Native for Windows (x64)</Product>
+    <VersionPrefix>0.2.0</VersionPrefix>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="../../build/common.props" />
+  <Import Project="../../build/nuget-for-native-lib.props" />
+  <Import Project="../../build/initialize-standard-nuspec-properties.targets" />
+
+  <PropertyGroup>
+    <Description>This package compliments package LithUSS and contains native implementation of LithUSS binaries.</Description>
+    <PackageTags>$(PackageCommonTags);Windows;x64</PackageTags>
+  </PropertyGroup>
+
+</Project>

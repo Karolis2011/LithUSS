@@ -1,41 +1,43 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30011.22
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LithUSS", "LithUSS\LithUSS.csproj", "{EC150FC0-B589-407F-A188-5D3C9691A96F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LithUSS.Native.win-x64", "src\LithUSS.Native.win-x64\LithUSS.Native.win-x64.csproj", "{CFB3C1B7-0A7B-4E07-975B-41E7D1DF6C34}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{EF89101E-6794-41D1-BA54-3B328F57599D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LithUSS.Native.win-x86", "src\LithUSS.Native.win-x86\LithUSS.Native.win-x86.csproj", "{3935DBCD-3AC8-4839-A156-F82A8A47C178}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LithUSS.Native.linux-x64", "src\LithUSS.Native.linux-x64\LithUSS.Native.linux-x64.csproj", "{2BB474F9-CCCB-4544-A377-0B80A6A7EEED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LithUSS", "src\LithUSS\LithUSS.csproj", "{9FE54FF3-EBD3-460E-87F8-74EB9260F70D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
-		Debug|x86 = Debug|x86
-		Release|x64 = Release|x64
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EC150FC0-B589-407F-A188-5D3C9691A96F}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{EC150FC0-B589-407F-A188-5D3C9691A96F}.Debug|x64.Build.0 = Debug|Any CPU
-		{EC150FC0-B589-407F-A188-5D3C9691A96F}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{EC150FC0-B589-407F-A188-5D3C9691A96F}.Debug|x86.Build.0 = Debug|Any CPU
-		{EC150FC0-B589-407F-A188-5D3C9691A96F}.Release|x64.ActiveCfg = Release|Any CPU
-		{EC150FC0-B589-407F-A188-5D3C9691A96F}.Release|x64.Build.0 = Release|Any CPU
-		{EC150FC0-B589-407F-A188-5D3C9691A96F}.Release|x86.ActiveCfg = Release|Any CPU
-		{EC150FC0-B589-407F-A188-5D3C9691A96F}.Release|x86.Build.0 = Release|Any CPU
-		{EF89101E-6794-41D1-BA54-3B328F57599D}.Debug|x64.ActiveCfg = Debug|x64
-		{EF89101E-6794-41D1-BA54-3B328F57599D}.Debug|x64.Build.0 = Debug|x64
-		{EF89101E-6794-41D1-BA54-3B328F57599D}.Debug|x86.ActiveCfg = Debug|x86
-		{EF89101E-6794-41D1-BA54-3B328F57599D}.Debug|x86.Build.0 = Debug|x86
-		{EF89101E-6794-41D1-BA54-3B328F57599D}.Release|x64.ActiveCfg = Release|x64
-		{EF89101E-6794-41D1-BA54-3B328F57599D}.Release|x64.Build.0 = Release|x64
-		{EF89101E-6794-41D1-BA54-3B328F57599D}.Release|x86.ActiveCfg = Release|x86
-		{EF89101E-6794-41D1-BA54-3B328F57599D}.Release|x86.Build.0 = Release|x86
+		{CFB3C1B7-0A7B-4E07-975B-41E7D1DF6C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB3C1B7-0A7B-4E07-975B-41E7D1DF6C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB3C1B7-0A7B-4E07-975B-41E7D1DF6C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB3C1B7-0A7B-4E07-975B-41E7D1DF6C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3935DBCD-3AC8-4839-A156-F82A8A47C178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3935DBCD-3AC8-4839-A156-F82A8A47C178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3935DBCD-3AC8-4839-A156-F82A8A47C178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3935DBCD-3AC8-4839-A156-F82A8A47C178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB474F9-CCCB-4544-A377-0B80A6A7EEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB474F9-CCCB-4544-A377-0B80A6A7EEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB474F9-CCCB-4544-A377-0B80A6A7EEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB474F9-CCCB-4544-A377-0B80A6A7EEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE54FF3-EBD3-460E-87F8-74EB9260F70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE54FF3-EBD3-460E-87F8-74EB9260F70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE54FF3-EBD3-460E-87F8-74EB9260F70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE54FF3-EBD3-460E-87F8-74EB9260F70D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9C996168-9B52-443A-BEF2-1F5D126335B1}
+		SolutionGuid = {8554C85D-D2D5-4E9E-84A7-E95770FB965F}
 	EndGlobalSection
 EndGlobal
